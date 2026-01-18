@@ -1,1 +1,70 @@
-<h1>Renato Martins<h1>
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title">Portifolio Renato Martins</title>
+    <!--Dev Icon Font -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <!--CSS do projeto -->
+    <link rel="stylesheet" href="css/styles.css"
+</head>
+<body>
+
+    <main id="container">
+        <aside id="bio-container">
+            <select id="languageSwitcher">
+                <option value="pt">Português</option>
+                <option value="en">English</option>
+                <option value="de">Deutsch</option>
+            </select>            
+            <h2>Renato Martins</h2>
+            <img id="bio-image" src="img/nick.png" alt=""Renato Martins>
+            <p data-i18n="name">Renato Martins, Analista de Sistemas</p>
+            <p data-i18n="welcome-text">Seja bem vindo!</p>
+            <ul id="social-container">
+               <li><a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li> 
+               <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li> 
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:renatomartsh@gmail.com">renatomartsh@gmail.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">Renato Martins</h1>
+            <p id="title"><span class="highlight">Analista de Sistemas</span></p>
+            <p class="description">formação em Sistemas de Informação e MBA em Gestão de Projetos. Atuo com foco em qualidade, inovação e colaboração e um ambiente trabalho produtivo e orientado a resultados</p>
+            <p class="description"></p>
+            <a href="https://renatomartsh.github.io/" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+            <h2 id="skills-section-title">Minha Skills</h2>
+            <p class="description">Conheça as teclogias que dominio:</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-php-plain colored"></i>
+                    <i class="devicon-nodejs-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+                </div>
+                
+                <div class="skills-box">
+                    <p class="skills-title">Databases</p>
+                    <i class="devicon-mysql-plain colored"></i>
+                    <i class="devicon-sqlserver-plain colored"></i>
+                    <i class="devicon-oracle-plain colored"></i>
+                </div>                
+            </div>
+        </section>
+    </main>                 
+          
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="js/i18n.js"></script>
+</body>
+</html>
